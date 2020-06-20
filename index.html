@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+    <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+
+    <title>Laatste opdracht yes.</title>
+</head>
+
+<body>
+
+<div class="pagecontainer">
+    <header>
+        <nav>
+            <img class="logo-blue" src="./img/roze/logo.svg" alt="logo">
+            <img class="logo-white" src="./img/white/logo-white.svg" alt="logo">
+            <div class="clear"></div>
+            <ul> 
+                <li><a href="#">OVER ONS</a></li>
+                <li><a href="#">LESMATERIAAL</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="clear"></div>
+            <div id="dark-switch">
+                <div class="mode-indicator"></div>
+            </div>
+        </nav>
+
+        <div class="contentwrapper">
+            <div class="titel">
+                <h3>Van beginner naar expert</h3>
+                <h3>Het lesmateriaal brengt je verder</h3>
+            </div>
+            <div class="subtitel">
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
+                    Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
+                    vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis 
+                    lacus vel augue laoreet rutrum faucibus dolor auctor.
+                </p>
+            </div>
+        </div>
+        <div class="bglayer"></div>
+    </header>
+    
+    <div class="tiles">
+        <ul>
+            <li> <img class="pink-i" src="./img/roze/leer.svg" alt="leersvg"> <img class="white-i" src="./img/white/leer-white.svg" alt="leersvgdm"><a href="#">Leer</a> </li> 
+            <li> <img class="pink-i" src="./img/roze/codeer.svg" alt="codeersvg"> <img class="white-i" src="./img/white/codeer-white.svg" alt="leersvgdm"><a href="#">Codeer</a> </li> 
+            <li> <img class="pink-i" src="./img/roze/speel.svg" alt=""> <img class="white-i" src="./img/white/speel-white.svg" alt="leersvgdm"><a href="#">Speel</a> </li> 
+        </ul>
+    </div>
+
+    <div class="playlist">
+        <h1>Playlist</h1>
+        <div id="accordion">
+            <h3>Algemene Introductie</h3>
+            <div class="vid-wrap">
+                <video id="video1" class="video-js" width="100%" data-setup='{"fluid": true}'>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4">
+                </video>
+                <div class="controls">
+                    <button class="back"></button>
+                    <button class="playpause toggle"></button>
+                    <button class="forward"></button>
+                </div>
+            </div>
+            <h3>Workshop 1: Kleuren met code</h3>
+            <div class="vid-wrap">
+                <video id="video2" class="video-js" width="100%" data-setup='{"fluid": true}'>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+                </video>
+                <div class="controls">
+                    <button class="back"></button>
+                    <button class="playpause toggle"></button>
+                    <button class="forward"></button>
+                </div>  
+            </div>
+            <h3>Workshop 2: Vormen maken</h3>
+            <div class="vid-wrap">
+                <video id="video3" class="video-js" width="100%" data-setup='{"fluid": true}'>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4" type="video/mp4">
+                </video>
+                <div class="controls">
+                    <button class="back"></button>
+                    <button class="playpause toggle"></button>
+                    <button class="forward"></button>
+                </div>
+            </div>
+            <h3>Workshop 3: Beweging</h3>
+            <div class="vid-wrap">
+                <video id="video4" class="video-js" width="100%" data-setup='{"fluid": true}'>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
+                </video>
+                <div class="controls">
+                    <button class="back"></button>
+                    <button class="playpause toggle"></button>
+                    <button class="forward"></button>
+                </div>
+            </div>
+            <h3>Workshop 4: Variabelen gebruiken</h3>
+            <div class="vid-wrap">
+                <video id="video5" class="video-js" width="100%" data-setup='{"fluid": true}'>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4" type="video/mp4">
+                </video>
+                <div class="controls">
+                    <button class="back"></button>
+                    <button class="playpause toggle"></button>
+                    <button class="forward"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 class="poggers">
+                <span class="letters letters-1">Ein-</span>
+                <span class="letters letters-2">de-</span>
+                <span class="letters letters-3">lijk</span>
+                <span class="letters letters-4">EINDELIJK</span>
+            </h1>
+        </div>
+    </div>
+
+    <div class="supportsection">
+        <div class="support-text">
+            <h1>Support</h1>
+            <p>Onze studenten staan voor je klaar. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>    
+        </div>
+        <div class="slider-container">
+            <ul id="autoWidth" class="cs-hidden">
+                <li class="item-a">
+                    <div class="slider-box">
+                        <div class="slider-profile-image" style="background-image: url(./img/profilephotos/daria-nepriakhina-736026-unsplash.jpg)"></div>
+                        <div class="slider-text">
+                            <h1>Daria Nepriakhina </h1>
+                            <h2>Hoofd support</h2>
+                            <a href="#">Mail</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="slider-box">
+                        <div class="slider-profile-image" style="background-image: url(./img/profilephotos/alina-kovalchuk-1143928-unsplash.jpg)"></div>
+                        <div class="slider-text">
+                            <h1>Alina kovalchuk </h1>
+                            <h2>Hoofd support</h2>
+                            <a href="#">Mail</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="slider-box">
+                        <div class="slider-profile-image" style="background-image: url(./img/profilephotos/nicole-wolf-1339717-unsplash.jpg)"></div>
+                        <div class="slider-text">
+                            <h1>Nicole Wolf </h1>
+                            <h2>Hoofd support</h2>
+                            <a href="#">Mail</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="slider-box">
+                        <div class="slider-profile-image" style="background-image: url(./img/profilephotos/norman-toth-177973-unsplash.jpg)"></div>
+                        <div class="slider-text">
+                            <h1>Norman Toth</h1>
+                            <h2>Hoofd support</h2>
+                            <a href="#">Mail</a>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer-text">
+                <div class="titel"><h3>Klaar voor de volgende uitdaging?</h3></div>
+                <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+                <a href="#">Kom maar op!</a>
+            </div>
+        </div>
+
+        <div class="bglayer_footer"></div>
+    </footer>
+
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</body>
+</html>
